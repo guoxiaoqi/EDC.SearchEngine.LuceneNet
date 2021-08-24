@@ -48,7 +48,7 @@
     <Compile Include="SqlHelper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Manulife.SearchEngine.Model\EDC.SearchEngine.Model.csproj">
+    <ProjectReference Include="..\EDC.SearchEngine.Model\EDC.SearchEngine.Model.csproj">
       <Project>{b08b66d4-36d5-4e44-85c1-67ad5481cc71}</Project>
       <Name>EDC.SearchEngine.Model</Name>
     </ProjectReference>

@@ -24,7 +24,7 @@
                 <ul id="hotKeywords">
                     <asp:Repeater ID="rptHotList" runat="server">
                         <ItemTemplate>
-                            <li><a href='ViewArticle.aspx?id=<%# Eval("Word") %>'><%# Eval("Word") %></a></li>
+                            <li><a href='Search.aspx?keyword=<%# Eval("Word") %>'><%# Eval("Word") %></a></li>
                         </ItemTemplate>
                     </asp:Repeater>
                 </ul>

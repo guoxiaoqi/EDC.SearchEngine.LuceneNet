@@ -203,11 +203,11 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\Manulife.SearchEngine.Model\EDC.SearchEngine.Model.csproj">
+    <ProjectReference Include="..\EDC.SearchEngine.Model\EDC.SearchEngine.Model.csproj">
       <Project>{b08b66d4-36d5-4e44-85c1-67ad5481cc71}</Project>
       <Name>EDC.SearchEngine.Model</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Manulife.SearchEngine.Service\EDC.SearchEngine.Service.csproj">
+    <ProjectReference Include="..\EDC.SearchEngine.Service\EDC.SearchEngine.Service.csproj">
       <Project>{d60a4a44-47ca-4923-9cbe-b54fd55d4b53}</Project>
       <Name>EDC.SearchEngine.Service</Name>
     </ProjectReference>
@@ -228,6 +228,8 @@
           <DevelopmentServerPort>13525</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:13525/</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost:13525/</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

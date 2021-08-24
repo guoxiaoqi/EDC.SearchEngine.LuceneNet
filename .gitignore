@@ -117,3 +117,5 @@ UpgradeLog*.XML
 /src/Sample/CanalSharp.AspNetCore.Sample/.vs/CanalSharp.AspNetCore.Sample/v15/Server/sqlite3/storage.ide
 /src/Sample/CanalSharp.AspNetCore.Sample/.vs/CanalSharp.AspNetCore.Sample/v15/Server/sqlite3/storage.ide-shm
 /src/Sample/CanalSharp.AspNetCore.Sample/.vs/CanalSharp.AspNetCore.Sample/v15/Server/sqlite3/storage.ide-wal
+/EDC.SearchEngine.Web/Log/2021/202108
+.vs
